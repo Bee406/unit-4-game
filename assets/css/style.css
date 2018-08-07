@@ -1,0 +1,11 @@
+.crystal-image {
+    width: 150px;
+    height: 150px;
+}
+
+#target-number {
+    font-size: 45px;
+    background: green;
+    width: 5%;
+    padding: 5%;
+}
