@@ -1,11 +1,70 @@
-.crystal-image {
-    width: 150px;
-    height: 150px;
+body {
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    line-height: 25px;
+    width: 60%;
+    color: black;
+    margin-left: 1%;
 }
 
+
+header {
+    color: black;
+    background: white;
+    border: solid 5px black;
+    font-size: 50px;
+    padding: 2% 0 2% 2%;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+p {
+    background: white;
+    border: solid 5px black;
+    padding: 1%;
+    margin-bottom: 10px;
+}
 #target-number {
-    font-size: 45px;
-    background: green;
-    width: 5%;
+    font-size: 40px;
+    background:white;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    border: solid 5px black;
+    margin-right: 15px;
+    float: left;
+    vertical-align: middle;
+}
+
+#score {
+    background: white;
+    border: solid 5px black;
+    float: left;
+    height: 100px;
+    padding-right: 10%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+}
+
+#wins-losses{
+    color: black;
+}
+.crystal-image {
+    width: 20%;
+    height: 125px;
+    border: solid 5px black;
+}
+
+#score-announce {
+    width: 28%;
+
+}
+
+#total-score {
+    background: white;
+    border: solid 5px black;
+    width: 20%;
     padding: 5%;
+    font-size: 40px;
 }
